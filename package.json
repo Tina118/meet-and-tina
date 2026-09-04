@@ -1,0 +1,23 @@
+{
+  "name": "meet-and-tina",
+  "private": true,
+  "version": "1.0.0",
+  "homepage": "https://tina118.github.io/meet-and-tina/",
+  "type": "module",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "gh-pages": "^6.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.11"
+  }
+}
